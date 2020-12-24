@@ -7,6 +7,7 @@
 }
 
 /* Footer text */
+
 .widget_text>p{
     padding-left: 10px;
     padding-right: 10px;
@@ -122,9 +123,11 @@
     font-size: 45px;
 }
 
-.page_breadcrumbs.background_cover{
+.background_cover{
     background-color: rgb(255, 255, 255);
     background-image: url('../images/bb1.png');
+    box-shadow: inset -7px -7px 20px 0px #313131;
+    /* background-image: linear-gradient(to bottom right, #e7b309, #ebb811); */
 }
 
 /* */
