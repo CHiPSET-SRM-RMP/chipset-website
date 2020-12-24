@@ -1,9 +1,24 @@
 
 /* CHiPSET header logo and text */
 
-.header_left_logo .logo_text{
+.header_left_logo>.logo_text{
     color: #000 !important;
     font-size: x-large;
+}
+
+/* Footer text */
+.widget_text>p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.widget-title{
+    text-align: center;
+}
+
+.list-unstyled>.media{
+    padding-left: 15px;
 }
 
 /* Image hover feature */
@@ -29,7 +44,7 @@
 .overlay-text h3{
     color: rgb(255, 255, 255) !important;
     font-family: 'Langar', cursive;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     position: absolute;
     top: 50%;
@@ -97,14 +112,14 @@
 /* Year heading */
 
 .container .row .text-center h2, .container .row .text-center h2 sup{
-    font-size: 400%;
+    font-size: 60px;
     font-family: 'Black Ops One', cursive;
     color: #000;
     text-shadow: 5px 5px 5px #ffe;
 }
 
 .container .row .text-center h2 sup{
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .page_breadcrumbs.background_cover{
@@ -121,7 +136,28 @@
     font-weight: 700;
 }
 
-@media (max-width: 960px){
+@media (min-width: 100px) and (max-width: 450px){
+    
+    .section_padding_top_40>[class*="container"]{
+        padding-top: 10px;
+    }
+
+    .section_padding_bottom_40>[class*="container"]{
+        padding-bottom: 0px ;
+    }
+
+    .container .row .text-center h2{
+        font-size: 40px;
+    }
+
+    .container .row .text-center h2 sup{
+        font-size: 25px;
+    }
+
+    .col-xs-10{
+        margin: auto auto;
+    }
+
     .hidden_text{
         display: block;
     }
@@ -133,10 +169,115 @@
     .overlay-text>h3{
         display: none;
     }
+
+    .big_on_hover:hover{
+        transform: none;
+        width: 100%;
+        height: 100%;
+    }
 }
 
-@media (max-width: 766px){
+@media (min-width: 451px) and (max-width: 766px){
     .col-xs-10{
         margin: auto auto;
+    }
+
+    .hidden_text{
+        display: block;
+    }
+
+    .overlay{
+        background: transparent;
+    }
+
+    .overlay-text>h3{
+        display: none;
+    }
+
+    .big_on_hover:hover{
+        transform: none;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 960px){
+    .hidden_text{
+        display: block;
+    }
+
+    .overlay{
+        background: transparent;
+    }
+
+    .overlay-text>h3{
+        display: none;
+    }
+
+    .big_on_hover:hover{
+        transform: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .row .text-center h2{
+        font-size: 50px;
+    }
+
+    .container .row .text-center h2 sup{
+        font-size: 35px;
+    }
+
+    .section_padding_top_40>[class*="container"]{
+        padding-top: 20px;
+    }
+
+    .section_padding_bottom_40>[class*="container"]{
+        padding-bottom: 10px ;
+    }
+
+}
+
+@media (min-width: 961px) and (max-width: 1100px){
+    .overlay .overlay-text>h3{
+        font-size: 23px;
+    }
+
+    .section_padding_top_40>[class*="container"]{
+        padding-top: 25px;
+    }
+
+    .section_padding_bottom_40>[class*="container"]{
+        padding-bottom: 15px ;
+    }
+
+    .container .row .text-center h2{
+        font-size: 60px;
+    }
+
+    .container .row .text-center h2 sup{
+        font-size: 45px;
+    }
+}
+
+@media (min-width:1101px) and (max-width: 1800px){
+    .overlay .overlay-text>h3{
+        font-size: 30px;
+    }
+
+    .section_padding_top_40>[class*="container"]{
+        padding-top: 35px;
+    }
+
+    .section_padding_bottom_40>[class*="container"]{
+        padding-bottom: 25px ;
+    }
+
+    .container .row .text-center h2{
+        font-size: 75px;
+    }
+
+    .container .row .text-center h2 sup{
+        font-size: 60px;
     }
 }
