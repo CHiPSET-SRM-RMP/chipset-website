@@ -1,0 +1,11 @@
+.img-hover1{
+
+    transition: transform 0.5s;
+    box-shadow: 5px 10px 8px #888888;
+    
+}
+.img-hover1:hover{
+
+    transform: scale(1.1);
+    position: relative;
+}
