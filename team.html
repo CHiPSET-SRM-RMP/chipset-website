@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
-
-
 
 <head>
     <title>CHiPSET Team</title>
     <meta charset="utf-8">
     
-    <!--[if IE]>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<![endif]-->
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="../unpkg.com/aos%403.0.0-beta.6/dist/aos.css" />
+
     <!-- Favicon linking -->
     <link rel="icon" type="image/png" sizes="32x32" href="images/32x-black-logo.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/32x-black-logo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/16x-black-logo.png">
+
     <!-- Favicon linking ends -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2&amp;display=swap" rel="stylesheet">
@@ -42,18 +35,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Langar&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
-    
-    <!--[if lt IE 9]>
-		<script src="js/vendor/html5shiv.min.js"></script>
-		<script src="js/vendor/respond.min.js"></script>
-		<script src="js/vendor/jquery-1.12.4.min.js"></script>
-	<![endif]-->
+
 </head>
 
 <body>
-    <!--[if lt IE 9]>
-		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
     <div class="preloader">
         <div class="preloader_image"></div>
     </div>
@@ -65,86 +50,19 @@
 		    </span>
 	    </button>
         <div class="widget widget_search">
-            <!--<form method="get" class="searchform search-form form-inline" action="http://webdesign-finder.com/html/diversify/">
-                <div class="form-group bottommargin_0"> <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input"> </div> <button type="submit" class="theme_button no_bg_button">Search</button> </form> -->
         </div>
     </div>
+
     <!-- Unyson messages modal -->
     <div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
         <div class="fw-messages-wrap ls with_padding">
-            <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-            <!--
-		<ul class="list-unstyled">
-			<li>Message To User</li>
-		</ul>
-		-->
         </div>
     </div>
-    <!-- eof .modal -->
-    <!-- wrappers for visual page editor and boxed version of template -->
+    
     <div id="canvas">
         <div id="box_wrapper">
             <!-- template sections -->
             <section class="page_topline ds table_section table_section_lg section_padding_top_15 section_padding_bottom_15 columns_margin_0">
-                <!--  <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6 text-center text-lg-left hidden-xs">
-                            <div class="inline-content big-spacing">
-                                <div class="page_social">
-                                    <a class="social-icon socicon-facebook" href="#" title="Facebook"></a>
-                                    <a class="social-icon socicon-twitter" href="#" title="Twitter"></a>
-                                    <a class="social-icon socicon-google" href="#" title="Google Plus"></a>
-                                    <a class="social-icon socicon-linkedin" href="#" title="Linkedin"></a>
-                                    <a class="social-icon socicon-youtube" href="#" title="Youtube"></a>
-                                </div> <span class="xs-block">
-						<i class="fa fa-clock-o highlight3 rightpadding_5" aria-hidden="true"></i>
-						Mon-Fri: 9:00-19:00; Sat: 10:00-17:00; Sun: Closed
-					</span> </div>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-right">
-                            <div id="topline-animation-wrap">
-                                <div id="topline-hide" class="inline-content big-spacing"> <span class="hidden-xs">
-							<i class="fa fa-map-marker highlight3 rightpadding_5" aria-hidden="true"></i>
-							73 Harvey Forest Suite, New York
-						</span> <span class="greylinks hidden-xs">
-							<i class="fa fa-pencil highlight3 rightpadding_5" aria-hidden="true"></i>
-							<a href="mailto:diversify@example.com">diversify@example.com</a>
-						</span>
-                                    <div class="xs-block">
-                                        <ul class="inline-list menu greylinks">
-                                            <li>
-                                                <a href="#0">
-                                                    <i class="fa fa-user" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#0">
-                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a id="search-show" href="index.html">
-                                                    <i class="fa fa-search"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div id="topline-show" class="widget widget_search">
-                                    <form method="get" class="searchform inline-form" action="http://webdesign-finder.com/html/diversify/">
-                                        <div class="form-group-wrap">
-                                            <div class="form-group"> <label class="sr-only" for="topline-widget-search">Search for:</label> <input id="topline-widget-search" type="text" value="" name="search" class="form-control" placeholder="Enter Keyword...">
-                                                <a href="index.html"
-                                                    id="search-close">
-                                                    <i class="fa fa-close"></i>
-                                                </a>
-                                            </div> <button type="submit" class="theme_button no_bg_button color1">ok</button> </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </section>
             <header class="page_header header_white toggler_xs_right columns_margin_0">
                 <div class="container-fluid">
@@ -152,277 +70,26 @@
                         <div class="col-sm-12 display_table">
                             <div class="header_left_logo display_table_cell">
                                 <a href="index-2.html" class="logo logo_with_text">
-                                    <img src="images/64x-black-logo.png" alt="logo" id="logochanger">
+                                    <img src="images/64x-black-logo.png" alt="logo">
                                     <span class="logo_text">
-                            CHiPSET
-                           <small class="highlight4"><strong>A Technical Community</strong></small>
-                        </span>
+                                        CHiPSET
+                                    <small class="highlight4"><strong>A Technical Community</strong></small>
+                                    </span>
                                 </a>
                             </div>
                             <div class="header_mainmenu display_table_cell text-right">
                                 <!-- main nav start -->
                                 <nav class="mainmenu_wrapper">
                                     <ul class="mainmenu nav sf-menu">
-                                        <li> <a href="index-2.html">Home</a>
-                                            <!-- <ul>
-                                                <li> <a href="index-2.html">Home</a> </li>
-                                                <li> <a href="index-static.html">Home static intro</a> </li>
-                                                <li> <a href="index-single.html">Home single page</a> </li>
-                                            </ul> -->
-                                        </li>
-                                        <li> <a href="about.html">About</a>
-
-                                            <!-- features -->
-                                            <!--<li> <a href="shortcodes_teasers.html">Shortcodes &amp; Widgets</a>
-                                                    <ul>
-                                                        <li> <a href="shortcodes_typography.html">Typography</a> </li>
-                                                        <li> <a href="shortcodes_buttons.html">Buttons</a> </li>
-                                                        <li> <a href="shortcodes_teasers.html">Teasers</a> </li>
-                                                        <li> <a href="shortcodes_progress.html">Progress</a> </li>
-                                                        <li> <a href="shortcodes_tabs.html">Tabs &amp; Collapse</a> </li>
-                                                        <li> <a href="shortcodes_bootstrap.html">Bootstrap Elements</a> </li>
-                                                        <li> <a href="shortcodes_widgets.html">Widgets</a> </li>
-                                                        <li> <a href="shortcodes_animation.html">Animation</a> </li>
-                                                        <li> <a href="shortcodes_icons.html">Template Icons</a> </li>
-                                                        <li> <a href="shortcodes_socialicons.html">Social Icons</a> </li>
-                                                    </ul>
-                                                </li> -->
-                                            <!-- eof features -->
-                                            <!--  <li> <a href="about.html">About</a> </li>
-                                                <li> <a href="team.html">Team</a>
-                                                    <ul>
-                                                        <li> <a href="team.html">Leaders</a> </li>
-                                                        <li> <a href="team-single.html">Team Member</a> </li>
-                                                    </ul>
-                                                </li>
-                                                <li> <a href="donate.html">Donate</a> </li>
-                                                <li> <a href="timetable.html">Timetable</a> </li>
-                                                <events -->
-                                            <!--  <li> <a href="events-left.html">Events</a>
-                                                    <ul>
-                                                        <li> <a href="events-left.html">Left Sidebar</a> </li>
-                                                        <li> <a href="events-right.html">Right Sidebar</a> </li>
-                                                        <li> <a href="events-full.html">Full Width</a> </li>
-                                                        <li> <a href="event-single-left.html">Single Event</a>
-                                                            <ul>
-                                                                <li> <a href="event-single-left.html">Left Sidebar</a> </li>
-                                                                <li> <a href="event-single-right.html">Right Sidebar</a> </li>
-                                                                <li> <a href="event-single-full.html">Full Width</a> </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li> -->
-                                            <!-- eof events -->
-                                            <!-- <li> <a href="comingsoon1.html">Comingsoon</a>
-                                                    <ul>
-                                                        <li> <a href="comingsoon1.html">Comingsoon</a> </li>
-                                                        <li> <a href="comingsoon2.html">Comingsoon 2</a> </li>
-                                                    </ul>
-                                                </li>
-                                                <li> <a href="faq.html">FAQ</a>
-                                                    <ul>
-                                                        <li> <a href="faq.html">FAQ</a> </li>
-                                                        <li> <a href="faq2.html">FAQ 2</a> </li>
-                                                        <li> <a href="faq3.html">FAQ 3</a> </li>
-                                                    </ul>
-                                                </li>
-                                                <li> <a href="404.html">404</a>
-                                                    <ul>
-                                                        <li> <a href="404.html">404</a> </li>
-                                                        <li> <a href="404-2.html">404 2</a> </li>
-                                                    </ul>
-                                                </li> -->
-
-                                        </li>
-                                        <!-- eof pages -->
-                                        <li class="active"> <a href="team.html">TEAM</a>
-                                            <!-- <ul>
-                                                <li> <a href="services.html">Services</a> </li>
-                                                <li> <a href="service-single.html">Single Service</a> </li>
-                                            </ul>-->
-                                        </li>
-                                        <!--  <li> <a href="#">Features</a>
-                                            <div class="mega-menu">
-                                                <ul class="mega-menu-row">
-                                                    <li class="mega-menu-col"> <a href="#">Headers</a>
-                                                        <ul>
-                                                            <li> <a href="header1.html">Header Type 1</a> </li>
-                                                            <li> <a href="header2.html">Header Type 2</a> </li>
-                                                            <li> <a href="header3.html">Header Type 3</a> </li>
-                                                            <li> <a href="header4.html">Header Type 4</a> </li>
-                                                            <li> <a href="header5.html">Header Type 5</a> </li>
-                                                            <li> <a href="header6.html">Header Type 6</a> </li>
-                                                            <li> <a href="header7.html">Header Type 7</a> </li>
-                                                            <li> <a href="header8.html">Header Type 8</a> </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="mega-menu-col"> <a href="#">Side Menus</a>
-                                                        <ul>
-                                                            <li> <a href="header_side1.html">Slide Left Light</a> </li>
-                                                            <li> <a href="header_side2.html">Slide Right Light</a> </li>
-                                                            <li> <a href="header_side3.html">Push Left Light</a> </li>
-                                                            <li> <a href="header_side4.html">Push Right Light</a> </li>
-                                                            <li> <a href="header_side5.html">Slide Left Dark</a> </li>
-                                                            <li> <a href="header_side6.html">Slide Right Dark</a> </li>
-                                                            <li> <a href="header_side7.html">Push Left Dark</a> </li>
-                                                            <li> <a href="header_side8.html">Push Right Dark</a> </li>
-                                                            <li> <a href="header_side_superfish.html">Superfish Menu</a> </li>
-                                                            <li> <a href="header_side_sticked.html">Sticked Menu</a> </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="mega-menu-col"> <a href="breadcrumbs1.html">Breadcrumbs</a>
-                                                        <ul>
-                                                            <li> <a href="breadcrumbs1.html">Breadcrumbs 1</a> </li>
-                                                            <li> <a href="breadcrumbs2.html">Breadcrumbs 2</a> </li>
-                                                            <li> <a href="breadcrumbs3.html">Breadcrumbs 3</a> </li>
-                                                            <li> <a href="breadcrumbs4.html">Breadcrumbs 4</a> </li>
-                                                            <li> <a href="breadcrumbs5.html">Breadcrumbs 5</a> </li>
-                                                            <li> <a href="breadcrumbs6.html">Breadcrumbs 6</a> </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="mega-menu-col"> <a href="footer1.html">Footers</a>
-                                                        <ul>
-                                                            <li> <a href="footer1.html">Footer Type 1</a> </li>
-                                                            <li> <a href="footer2.html">Footer Type 2</a> </li>
-                                                            <li> <a href="footer3.html">Footer Type 3</a> </li>
-                                                            <li> <a href="footer4.html">Footer Type 4</a> </li>
-                                                            <li> <a href="footer5.html">Footer Type 5</a> </li>
-                                                            <li> <a href="footer6.html">Footer Type 6</a> </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="mega-menu-col"> <a href="copyright1.html">Copyrights</a>
-                                                        <ul>
-                                                            <li> <a href="copyright1.html">Copyrights 1</a> </li>
-                                                            <li> <a href="copyright2.html">Copyrights 2</a> </li>
-                                                            <li> <a href="copyright3.html">Copyrights 3</a> </li>
-                                                            <li> <a href="copyright4.html">Copyrights 4</a> </li>
-                                                            <li> <a href="copyright5.html">Copyrights 5</a> </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <!- eof mega menu -->
-                                        <!-- </li> -->
-                                        <!-- eof features -->
-                                        <!-- gallery -->
-                                        <!-- <li> <a href="gallery-regular.html">Gallery</a>
-
-                                            <!- Gallery regular -->
-                                        <!-- <li> <a href="gallery-regular.html">Gallery Regular</a>
-                                                    <ul>
-                                                        <li> <a href="gallery-regular.html">1 column</a> </li>
-                                                        <li> <a href="gallery-regular-2-cols.html">2 columns</a> </li>
-                                                        <li> <a href="gallery-regular-3-cols.html">3 columns</a> </li>
-                                                    </ul>
-                                                </li>
-                                                <!eof Gallery regular -->
-                                        <!-- Gallery full width -->
-                                        <!-- <li> <a href="gallery-fullwidth.html">Gallery Full Width</a>
-                                                    <ul>
-                                                        <li> <a href="gallery-fullwidth.html">2 column</a> </li>
-                                                        <li> <a href="gallery-fullwidth-3-cols.html">3 columns</a> </li>
-                                                        <li> <a href="gallery-fullwidth-4-cols.html">4 columns</a> </li>
-                                                    </ul>
-                                                </li> -->
-                                        <!-- eof Gallery full width -->
-                                        <!-- Gallery extended -->
-                                        <!-- <li> <a href="gallery-extended.html">Gallery Extended</a>
-                                                    <ul>
-                                                        <li> <a href="gallery-extended.html">1 column</a> </li>
-                                                        <li> <a href="gallery-extended-2-cols.html">2 columns</a> </li>
-                                                        <li> <a href="gallery-extended-3-cols.html">3 columns</a> </li>
-                                                    </ul>
-                                                </li> -->
-                                        <!-- eof Gallery extended -->
-                                        <!-- Gallery carousel -->
-                                        <!-- <li> <a href="gallery-carousel.html">Gallery Carousel</a>
-                                                    <ul>
-                                                        <li> <a href="gallery-carousel.html">1 column</a> </li>
-                                                        <li> <a href="gallery-carousel-2-cols.html">2 columns</a> </li>
-                                                        <li> <a href="gallery-carousel-3-cols.html">3 columns</a> </li>
-                                                    </ul>
-                                                </li> -->
-                                        <!-- eof Gallery carousel -->
-                                        <!-- Gallery tile -->
-                                        <!-- <li> <a href="gallery-tile.html">Gallery Tile</a> </li> -->
-                                        <!-- eof Gallery tile -->
-                                        <!-- Gallery left sidebar -->
-                                        <!-- <li> <a href="gallery-left.html">Gallery Left Sidebar</a>
-                                                    <ul>
-                                                        <li> <a href="gallery-left.html">1 column</a> </li>
-                                                        <li> <a href="gallery-left-2-cols.html">2 columns</a> </li>
-                                                    </ul>
-                                                </li> -->
-                                        <!-- eof Gallery left sidebar -->
-                                        <!-- Gallery right sidebar -->
-                                        <!-- <li> <a href="gallery-right.html">Gallery Right Sidebar</a>
-                                                    <ul>
-                                                        <li> <a href="gallery-right.html">1 column</a> </li>
-                                                        <li> <a href="gallery-right-2-cols.html">2 columns</a> </li>
-                                                    </ul>
-                                                </li> -->
-                                        <!-- eof Gallery right sidebar -->
-                                        <!-- Gallery item -->
-                                        <!--  <li> <a href="gallery-single.html">Gallery Item</a>
-                                                    <ul>
-                                                        <li> <a href="gallery-single.html">Style 1</a> </li>
-                                                        <li> <a href="gallery-single2.html">Style 2</a> </li>
-                                                        <li> <a href="gallery-single3.html">Style 3</a> </li>
-                                                    </ul>
-                                                </li> -->
-                                        <!-- eof Gallery item -->
-
-                                        <!-- </li> -->
-                                        <!-- eof Gallery -->
-                                        <!-- blog -->
-                                        <li> <a href="blog-mosaic.html">Events</a>
-                                            <!-- <ul>
-                                                <li> <a href="blog-right.html">Right Sidebar</a> </li>
-                                                <li> <a href="blog-left.html">Left Sidebar</a> </li>
-                                                <li> <a href="blog-full.html">No Sidebar</a> </li>
-                                                <li> <a href="blog-mosaic.html">Blog Grid</a> </li>
-                                                <li> <a href="blog-single-right.html">Post</a>
-                                                    <ul>
-                                                        <li> <a href="blog-single-right.html">Right Sidebar</a> </li>
-                                                        <li> <a href="blog-single-left.html">Left Sidebar</a> </li>
-                                                        <li> <a href="blog-single-full.html">No Sidebar</a> </li>
-                                                    </ul>
-                                                </li>
-                                                <li> <a href="blog-single-video-right.html">Video Post</a>
-                                                    <ul>
-                                                        <li> <a href="blog-single-video-right.html">Right Sidebar</a> </li>
-                                                        <li> <a href="blog-single-video-left.html">Left Sidebar</a> </li>
-                                                        <li> <a href="blog-single-video-full.html">No Sidebar</a> </li>
-                                                    </ul>
-                                                </li>
-                                            </ul> -->
-                                        </li>
-                                        <!-- eof blog -->
-                                        <!-- shop -->
-                                        <!--  <li> <a href="shop.html">Shop</a>
-                                            <ul>
-                                                <li> <a href="shop.html">Shop</a> </li>
-                                                <li> <a href="shop-product.html">Single Product</a> </li>
-                                                <li> <a href="shop-cart.html">Shopping Cart</a> </li>
-                                                <li> <a href="shop-checkout.html">Checkout</a> </li>
-                                                <li> <a href="shop-register.html">Registration</a> </li>
-                                            </ul>
-                                        </li> -->
-                                        <!-- eof shop -->
-                                        <!-- contacts -->
-                                        <li> <a href="contact.html">Contacts</a>
-                                            <!-- <ul>
-                                                <li> <a href="contact.html">Contact 1</a> </li>
-                                                <li> <a href="contact2.html">Contact 2</a> </li>
-                                                <li> <a href="contact3.html">Contact 3</a> </li>
-                                                <li> <a href="contact4.html">Contact 4</a> </li>
-                                            </ul> -->
-                                        </li>
-                                        <!-- eof contacts -->
+                                        <li> <a href="index-2.html">Home</a> </li>
+                                        <li> <a href="about.html">About</a> </li>
+                                        <li class="active"> <a href="team.html">TEAM</a> </li>
+                                        <li> <a href="blog-mosaic.html">Events</a> </li>
+                                        <li> <a href="contact.html">Contacts</a> </li>
                                     </ul>
                                 </nav>
-                                <!-- eof main nav -->
-                                <!-- header toggler --><span class="toggle_menu"><span></span></span>
+                                <span class="toggle_menu"><span></span>
+                                </span>
                             </div>
                             <!-- <div class="header_right_buttons display_table_cell text-right hidden-xs"> <a href="donate.html" class="theme_button color2 margin_0">Donate us now!</a> </div> -->
                         </div>
@@ -435,7 +102,6 @@
                     <div class="row">
                         <div class="col-sm-12 text-center">
                             <h2><i>4<sup>th</sup> Years</i></h2>
-                            
                         </div>
                     </div>
                 </div>
@@ -692,13 +358,6 @@
                     </div>
             </section>
 
-            <!-- <div class="container-fluid std" style="margin-bottom: 15px;">
-                <div class="line center"></div>
-                <div>
-                    <h1 style="text-align: center;">3rd YEARS</h1>
-                </div>
-                <div class="line"></div>
-            </div> -->
             <section class="ls page_portfolio section_padding_top_100 section_padding_bottom_100">
                 <div class="container">
                     <div class="row flex-wrap columns_margin_bottom_20">
@@ -1490,21 +1149,9 @@
                 </div>
             </section>
 
-            <footer class="page_footer template_footer ds ms parallax overlay_color section_padding_top_75 section_padding_bottom_75 columns_padding_25">
+            <footer class="page_footer template_footer ds ms parallax overlay_color section_padding_top_110 section_padding_bottom_75 columns_padding_25">
                 <div class="container">
                     <div class="row">
-                        <!-- <div class="col-xs-12">
-                            <div id="subscribe" class="widget widget_mailchimp with_padding cs main_color2 parallax overlay_color topmargin_0">
-                                <h3 class="widget-title">Our Newsletter</h3>
-                                <form class="signup" action="#" method="get">
-                                    <div class="form-group-wrap">
-                                        <div class="form-group"> <label for="mailchimp" class="sr-only">Enter your email here</label> <input name="email" type="email" id="mailchimp" class="mailchimp_email form-control text-center" placeholder="Your Email Address"> </div>
-                                        <button type="submit" class="theme_button color2">Subscribe now</button>
-                                    </div>
-                                    <div class="response"></div>
-                                </form>
-                            </div>
-                        </div> -->
                         <div class="col-md-4 col-sm-6 col-xs-12 col-md-push-4 text-center">
                             <div class="widget widget_text widget_about">
                                 <div class="logo logo_with_text bottommargin_10"> <img src="images/64x_white_logo.png" alt="footer_logo"> 
@@ -1540,18 +1187,33 @@
                             <div class="widget widget_recent_posts">
                                 <h3 class="widget-title">Recent Blogs</h3>
                                 <ul class="list-unstyled greylinks">
+
                                     <li>
-                                        <p> <a href="blog-single-left.html">Creating the 'High and Low'Game app</a> </p>
+                                        <p> <a href="https://chipsetrmp.medium.com/netflix-instagram-spotify-pinterest-uber-dropbox-9dd968edcba7">Applications of Python</a> </p>
                                         <div class="entry-meta inline-content greylinks"> 
-                                            <span>
-									            <i class="fa fa-calendar highlight3 rightpadding_5" aria-hidden="true"></i>
-                                                <a href="blog-single-right.html">
-                                                    <time datetime="2017-10-03T08:50:40+00:00">
-                                                    7 Feb, 2019</time>
-                                                </a>
-		            						</span>
+                                        <span>
+                                            <i class="fa fa-calendar highlight3 rightpadding_5" aria-hidden="true"></i>
+                                            <a href="https://chipsetrmp.medium.com/netflix-instagram-spotify-pinterest-uber-dropbox-9dd968edcba7">
+                                            <time datetime="2017-10-03T08:50:40+00:00">
+                                            21 Feb, 2020</time>
+                                            </a>
+                                        </span>
                                         </div>
                                     </li>
+
+                                   <li>
+                                        <p> <a href="https://chipsetrmp.medium.com/creating-the-high-and-low-game-app-cce0e54560f5">Creating the 'High and Low'Game app</a> </p>
+                                        <div class="entry-meta inline-content greylinks"> 
+                                        <span>
+                                            <i class="fa fa-calendar highlight3 rightpadding_5" aria-hidden="true"></i>
+                                            <a href="https://chipsetrmp.medium.com/creating-the-high-and-low-game-app-cce0e54560f5">
+                                            <time datetime="2017-10-03T08:50:40+00:00">
+                                            7 Feb, 2019</time>
+                                            </a>
+                                        </span>
+                                        </div>
+                                    </li>
+
                                 </ul>
                             </div>
                         </div>
