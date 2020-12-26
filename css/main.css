@@ -5659,14 +5659,14 @@ h2.section_header:last-child {
     position: absolute;
     left: 50%;
     top: 50%;
-    background: url(../img/preloader.gif) no-repeat 50% 50% transparent;
+    background: url(../img/chipsetpgloader.gif) no-repeat 50% 50% transparent;
     margin: -50px 0 0 -50px;
 }
 
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
     .preloader_image {
-        background: url(../img/preloader.gif) no-repeat 50% 50% transparent;
+        background: url(../img/chipsetpgloader.gif) no-repeat 50% 50% transparent;
     }
 }
 
@@ -12684,9 +12684,9 @@ body.active-side-header.slide-right .page_header_side {
     }
     .mobile-active .mainmenu_wrapper {
         visibility: visible;
-        opacity: 1;
+        opacity: 0.97;
         background-color: #111;
-        background-color: #1f232b;
+        background-color: #3a3d44;
     }
     .nav-justified>li>a {
         text-align: left;

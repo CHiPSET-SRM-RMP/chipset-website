@@ -68,6 +68,18 @@
     transform: translate3d(-10px, -10px, 10px);
 }
 
+/* Nav bar list */
+h6{
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 1.05rem;
+}
+
+h6:hover{
+    color: #e85242;
+}
+
+
 /* Social Media Icons */
 
 .fa-linkedin-in, .fa-github, .fa-twitter, .fa-facebook, .fa-instagram{
@@ -112,15 +124,18 @@
 
 /* Year heading */
 
-.container .row .text-center h2, .container .row .text-center h2 sup{
+.container .row .text-center h2{
     font-size: 60px;
     font-family: 'Black Ops One', cursive;
     color: #000;
     text-shadow: 5px 5px 5px #ffe;
 }
 
-.container .row .text-center h2 sup{
+.container .row .text-center h2>sup{
     font-size: 45px;
+    font-family: 'Black Ops One', cursive;
+    color: #000;
+    text-shadow: 5px 5px 5px #ffe;
 }
 
 .background_cover{

@@ -1,0 +1,65 @@
+.paper {
+  background: #f2f2f2;
+  border: 0.75px #000;
+  box-shadow:
+    /* The top layer shadow */
+    0 1px 1px rgba(0,0,0,0.5),
+    /* The second layer */
+    0 10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 10px 1px -4px rgba(0,0,0,0.5),
+     /* The third layer */
+    0 20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 20px 1px -9px rgba(0,0,0,0.5);
+    /* Padding for demo purposes */
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.form-control:focus {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+#contact_form_submit:hover {
+    transform: translate(0, -6px);
+    background-color: #f26013;
+    border: #f26013;
+    box-shadow: -7px 7px #f6915b;
+}
+.info {
+    width: 80%;
+    margin: auto;
+    font-size: 1.25em;
+    margin-bottom: 100px;
+}
+.info .media {
+    margin-bottom: 10px;
+    transition: .5s ease-out;
+}
+.info .media:hover {
+    color: #e85242;
+    text-shadow: 1px 1px #e85242;
+    transform: scale(1.3);
+}
+.map {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.map  iframe {
+    width: 100%;
+}
+.map_marker_description {
+    text-align: center;
+}
+
+.special_hover{
+    transition: 0.5s ease-out;
+}
+
+.special_hover:hover{
+    transform: scale(1.2);
+}
