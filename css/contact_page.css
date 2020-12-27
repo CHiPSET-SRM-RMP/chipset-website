@@ -58,8 +58,11 @@
 
 .special_hover{
     transition: 0.5s ease-out;
+    margin-left: 25px !important;
+    transform: scale(1.2);
+    
 }
 
 .special_hover:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
 }

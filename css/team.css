@@ -4,6 +4,8 @@
 .header_left_logo>.logo_text{
     color: #000 !important;
     font-size: x-large;
+    display: inline-block;
+
 }
 
 /* Footer text */
@@ -78,7 +80,6 @@ h6{
 h6:hover{
     color: #e85242;
 }
-
 
 /* Social Media Icons */
 
@@ -165,11 +166,11 @@ h6:hover{
     }
 
     .container .row .text-center h2{
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .container .row .text-center h2 sup{
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .col-xs-10{
@@ -217,6 +218,22 @@ h6:hover{
         width: 100%;
         height: 100%;
     }
+
+    .container .row .text-center h2{
+        font-size: 55px;
+    }
+
+    .container .row .text-center h2 sup{
+        font-size: 40px;
+    }
+
+    .section_padding_top_40>[class*="container"]{
+        padding-top: 15px;
+    }
+
+    .section_padding_bottom_40>[class*="container"]{
+        padding-bottom: 5px ;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 960px){
@@ -239,11 +256,11 @@ h6:hover{
     }
 
     .container .row .text-center h2{
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .container .row .text-center h2 sup{
-        font-size: 35px;
+        font-size: 45px;
     }
 
     .section_padding_top_40>[class*="container"]{
@@ -292,10 +309,24 @@ h6:hover{
     }
 
     .container .row .text-center h2{
-        font-size: 75px;
+        font-size: 70px;
     }
 
     .container .row .text-center h2 sup{
-        font-size: 60px;
+        font-size: 55px;
     }
+}
+
+/* logo changer on theme change */
+
+.left_header_logo{
+    height: 64px;
+    width: 64px;
+    background-image: url(../images/64x-black-logo.png);
+    /* display: inline; */
+    float: left;
+}
+
+.header_darkgrey .container-fluid .row .header_left_logo .left_header_logo{
+    background-image: url(../images/64x_white_logo.png);
 }
