@@ -3078,10 +3078,10 @@ p>i+[class*="rt-icon"] {
     position: absolute;
     right: 0;
     text-align: center;
-    margin-top: -20px;
+    margin-top: 20px;
 }
 
-@media (max-width: 360px){
+@media (min-width: 100px) and (max-width: 360px){
     .owl-theme .owl-nav>div{
         margin-top: 20px;
     }
