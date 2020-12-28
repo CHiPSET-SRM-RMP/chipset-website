@@ -1226,7 +1226,7 @@ function windowLoadInit() {
 
 	//page preloader
 	jQuery(".preloaderimg").fadeOut(150);
-	jQuery(".preloader").fadeOut(350).delay(200, function(){
+	jQuery(".preloader").fadeOut(350).delay(5, function(){
 		jQuery(this).remove();
 	});
 
