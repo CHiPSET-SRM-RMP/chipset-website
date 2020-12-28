@@ -2242,7 +2242,7 @@ ol.list3 {
 }
 
 .list-unstyled .media {
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -14165,7 +14165,7 @@ aside .widget+.widget {
 @media (min-width: 992px) {
     .page_footer .widget>h3,
     .page_footer .widget-title {
-        margin-bottom: 42px;
+        margin-bottom: 20px;
     }
 }
 
@@ -14212,7 +14212,7 @@ aside .widget+.widget {
 }
 
 .widget .list-unstyled li:first-child {
-    padding-top: 0;
+    padding-top: 20px;
 }
 
 .widget select {
