@@ -1,0 +1,651 @@
+
+/* CHiPSET header logo and text */
+
+.header_left_logo>.logo_text{
+    color: #000 !important;
+    font-size: x-large;
+    display: inline-block;
+
+}
+
+/* Footer text */
+
+.widget_text>p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.widget-title{
+    text-align: center;
+}
+
+.list-unstyled>.media{
+    padding-left: 15px;
+}
+
+/* Image hover feature */
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease-out;
+    background: linear-gradient(120deg, #f5b609, #141414);
+}
+
+.profile_image_hover:hover .overlay{
+    opacity: 0.96;
+    transform: scale(1.5);
+}
+
+.overlay-text h3{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Langar', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.big_on_hover{
+    transition: width, height;
+    transition: 0.5s ease-out;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.big_on_hover:hover{
+    width: 105%;
+    height: 105%;
+    transform: translate3d(-10px, -10px, 10px);
+}
+
+/* Nav bar list */
+h6{
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 1.05rem;
+}
+
+h6:hover{
+    color: #e85242;
+}
+
+/* Social Media Icons */
+
+.fa-linkedin-in, .fa-github, .fa-twitter, .fa-facebook, .fa-instagram{
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.fa-linkedin-in:hover{
+    color: #0e76a8 !important;
+    transition: 0.5s ease-out;
+    text-shadow: 10px 10px 10px rgb(90, 90, 90);
+    transform: translate(-5px, -5px);
+}
+
+.fa-github:hover{
+    color: #000 !important;
+    transition: 0.5s ease-out;
+    text-shadow: 10px 10px 10px rgb(90, 90, 90);
+    transform: translate(-5px, -5px);
+}
+
+.fa-twitter:hover{
+    color: #1da1f2 !important;
+    transition: 0.5s ease-out;
+    text-shadow: 10px 10px 10px rgb(90, 90, 90);
+    transform: translate(-5px, -5px);
+}
+
+.fa-facebook:hover{
+    color: #4267B2 !important;
+    transition: 0.5s ease-out;
+    text-shadow: 10px 10px 10px rgb(90, 90, 90);
+    transform: translate(-5px, -5px);
+}
+
+.fa-instagram:hover{
+    color: #8a3ab9 !important;
+    transition: 0.5s ease-out;
+    text-shadow: 10px 10px 10px rgb(90, 90, 90);
+    transform: translate(-5px, -5px);
+}
+
+/* Year heading */
+
+.container .row .text-center h2{
+    font-size: 60px;
+    font-family: 'Black Ops One', cursive;
+    color: #000;
+    text-shadow: 5px 5px 5px #ffe;
+}
+
+.container .row .text-center h2>sup{
+    font-size: 45px;
+    font-family: 'Black Ops One', cursive;
+    color: #000;
+    text-shadow: 5px 5px 5px #ffe;
+}
+
+.background_cover{
+    background-color: rgb(255, 255, 255);
+    background-image: url('../images/bb1.png');
+    box-shadow: inset -7px -7px 20px 0px #313131;
+    /* background-image: linear-gradient(to bottom right, #e7b309, #ebb811); */
+}
+
+/* */
+
+.hidden_text{
+    display: none;
+    font-family: 'Langar', cursive;
+    font-size: 25px !important;
+    font-weight: 700;
+}
+
+@media (min-width: 100px) and (max-width: 450px){
+    
+    .section_padding_top_40>[class*="container"]{
+        padding-top: 10px;
+    }
+
+    .section_padding_bottom_40>[class*="container"]{
+        padding-bottom: 0px ;
+    }
+
+    .container .row .text-center h2{
+        font-size: 50px;
+    }
+
+    .container .row .text-center h2 sup{
+        font-size: 35px;
+    }
+
+    .col-xs-10{
+        margin: auto auto;
+    }
+
+    .hidden_text{
+        display: block;
+    }
+
+    .overlay{
+        background: transparent;
+    }
+
+    .overlay-text>h3{
+        display: none;
+    }
+
+    .big_on_hover:hover{
+        transform: none;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 766px){
+    .col-xs-10{
+        margin: auto auto;
+    }
+
+    .hidden_text{
+        display: block;
+    }
+
+    .overlay{
+        background: transparent;
+    }
+
+    .overlay-text>h3{
+        display: none;
+    }
+
+    .big_on_hover:hover{
+        transform: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .row .text-center h2{
+        font-size: 55px;
+    }
+
+    .container .row .text-center h2 sup{
+        font-size: 40px;
+    }
+
+    .section_padding_top_40>[class*="container"]{
+        padding-top: 15px;
+    }
+
+    .section_padding_bottom_40>[class*="container"]{
+        padding-bottom: 5px ;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 960px){
+    .hidden_text{
+        display: block;
+    }
+
+    .overlay{
+        background: transparent;
+    }
+
+    .overlay-text>h3{
+        display: none;
+    }
+
+    .big_on_hover:hover{
+        transform: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .row .text-center h2{
+        font-size: 60px;
+    }
+
+    .container .row .text-center h2 sup{
+        font-size: 45px;
+    }
+
+    .section_padding_top_40>[class*="container"]{
+        padding-top: 20px;
+    }
+
+    .section_padding_bottom_40>[class*="container"]{
+        padding-bottom: 10px ;
+    }
+
+}
+
+@media (min-width: 961px) and (max-width: 1100px){
+    .overlay .overlay-text>h3{
+        font-size: 23px;
+    }
+
+    .section_padding_top_40>[class*="container"]{
+        padding-top: 25px;
+    }
+
+    .section_padding_bottom_40>[class*="container"]{
+        padding-bottom: 15px ;
+    }
+
+    .container .row .text-center h2{
+        font-size: 60px;
+    }
+
+    .container .row .text-center h2 sup{
+        font-size: 45px;
+    }
+}
+
+@media (min-width:1101px) and (max-width: 1800px){
+    .overlay .overlay-text>h3{
+        font-size: 30px;
+    }
+
+    .section_padding_top_40>[class*="container"]{
+        padding-top: 35px;
+    }
+
+    .section_padding_bottom_40>[class*="container"]{
+        padding-bottom: 25px ;
+    }
+
+    .container .row .text-center h2{
+        font-size: 70px;
+    }
+
+    .container .row .text-center h2 sup{
+        font-size: 55px;
+    }
+}
+
+/* logo changer on theme change */
+
+.left_header_logo{
+    height: 64px;
+    width: 64px;
+    background-image: url(../images/64x-black-logo.png);
+    /* display: inline; */
+    float: left;
+}
+
+.header_darkgrey .container-fluid .row .header_left_logo .left_header_logo{
+    background-image: url(../images/64x_white_logo.png);
+}
+
+/* About Us Section */
+
+.img-hover1{
+
+    transition: transform 0.5s;
+    box-shadow: 5px 10px 8px #888888;
+    
+}
+.img-hover1:hover{
+
+    transform: scale(1.1);
+    position: relative;
+}
+
+/* Events page */
+
+/* ####################################   MODIFY CSS ###################################### */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster+Two:ital@1&display=swap');
+
+/* .rollover:hover{
+    /* color: ; */
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    /* z-index: 3; */
+    /* transition: opacity 0.3s ease-in-out; */
+    /* color: #fff; */
+	/* transform: translate3d(0,-50%,0) translate3d(0,-40px,0); */
+/* } */ 
+
+.rollover {
+    background: black;
+    transition: transform 1s;
+}
+.rollover img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.rollover:hover{
+    position: relative;
+    transform: scale(1.3);
+	opacity: 0.5;
+}
+
+.updates-event{
+  border-bottom: 2px solid black; 
+   height: 80vh;
+ /* height: 90vh;      *********** when register link is there *********  */
+   /* width: 100%; */
+}
+.new_event1{
+    position: relative;
+    text-align: center;
+}
+.left_margin{
+  margin-left: 300px;
+}
+
+.centre_heading{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+     font-family: 'Lobster Two', cursive;
+     font-size: 70px;
+
+}
+.color_black{
+    color: black;
+}
+.beech{
+    margin-left: 70px ;
+    text-align: center;
+}
+.margin_centre{
+    margin-left: 300px;
+}
+.button,
+.button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.button {
+  width: 30%;
+  height: 30%;
+  background: none;
+  border: solid #fcb315;
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 20px ; 
+  position: relative;
+  text-transform: uppercase;
+}
+
+.button::before,
+.button::after {
+  background: #fcb315;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.button:hover {
+  color: #fcb315;
+}
+.btn-4::before {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.btn-4::after {
+  background: white;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  
+}
+
+.btn-4:hover:after {
+  height: 0;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  
+}
+.ds.background_cover{
+  background: url(../images/bb1.png);
+}
+
+
+[data-aos="new-animation"] 
+{
+    opacity: 0;
+    transition-property: transform, opacity;}
+  
+   .aos-animate {
+      opacity: 1;
+    }
+  
+    @media screen and (min-width: 768px) 
+    {
+    
+  
+      .aos-animate {
+        transform: translateX(0);
+      }
+    }
+
+
+
+body[data-aos-duration='4000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 4000ms;
+  }
+
+@media only screen and (max-width: 800px) and (min-width: 360px)
+{
+  .update_event{
+    
+    height: 40vh;
+    width: 100%;
+  }
+  .button{
+    width: 50%;
+    height: 50%;
+    font-size: 1em;
+    
+
+  }
+  .centre_heading{
+    font-size: 35px;
+  }
+  .left_margin{
+    margin-left: -150px;
+  }
+  .left_margin{
+    margin-left: 110px;
+  }
+    
+}
+
+@media only screen and (max-width: 830px) and (min-width: 200px)
+{
+  .updates-event{
+    height: 33vh;
+  }
+  .button
+  {
+  width: 60%;
+  height: 70%;
+  font-size: 1em;
+  }
+  .centre_heading{
+    font-size: 45px;
+  }
+  .pagination{
+    margin-left: -200px;
+  }
+
+}
+ @media only screen and (max-width: 390px) and (min-width: 320px)
+{
+  .left_margin{
+    margin-left: 70px;
+  }
+  } 
+
+
+
+ @media only screen and (max-width: 770px) and (min-width: 560px){
+   .left_margin{
+     margin-left: 200px;
+   }
+ }
+ 
+ @media only screen and (max-width: 1370px) and (min-width: 1020px){
+  .row_ht{
+    height: 130vh;
+    
+  }
+  .pro_space{
+    margin-top: 100px;
+  }
+  .pro_centre{
+    margin-top: 70px;
+    margin-left: -200px;
+  }
+  .updates-event{
+    height: 40vh;
+  }
+  .pro_top{
+    
+   margin-top: 895px;
+  } 
+  
+ }
+
+ /* Contact Us Section */
+
+ .paper {
+    background: #f2f2f2;
+    border: 0.75px #000;
+    box-shadow:
+      /* The top layer shadow */
+      0 1px 1px rgba(0,0,0,0.5),
+      /* The second layer */
+      0 10px 0 -5px #eee,
+      /* The second layer shadow */
+      0 10px 1px -4px rgba(0,0,0,0.5),
+       /* The third layer */
+      0 20px 0 -10px #eee,
+      /* The third layer shadow */
+      0 20px 1px -9px rgba(0,0,0,0.5);
+      /* Padding for demo purposes */
+      padding: 30px;
+      width: 80%;
+      margin: auto;
+      margin-bottom: 100px;
+  }
+  .form-control:focus {
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+  }
+  #contact_form_submit:hover {
+      transform: translate(0, -6px);
+      background-color: #f26013;
+      border: #f26013;
+      box-shadow: -7px 7px #f6915b;
+  }
+  .info {
+      width: 80%;
+      margin: auto;
+      font-size: 1.25em;
+      margin-bottom: 100px;
+  }
+  .info .media {
+      margin-bottom: 10px;
+      transition: .5s ease-out;
+  }
+  .info .media:hover {
+      color: #e85242;
+      text-shadow: 1px 1px #e85242;
+      transform: scale(1.3);
+  }
+  .map {
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      
+  }
+  .map  iframe {
+      width: 100%;
+  }
+  .map_marker_description {
+      text-align: center;
+  }
+  
+  .special_hover{
+      transition: 0.5s ease-out;
+      margin-left: 25px !important;
+      transform: scale(1.2);
+      
+  }
+  
+  .special_hover:hover{
+      transform: scale(1.4);
+  }
