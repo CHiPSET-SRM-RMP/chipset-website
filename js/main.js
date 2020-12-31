@@ -722,8 +722,8 @@ function windowLoadInit() {
 				prevText: "",
 				nextText: "",
 				smoothHeight: false,
-				slideshowSpeed: 2000,
-				animationSpeed: 400,
+				slideshowSpeed: 3500,
+				animationSpeed: 500,
 				start: function( slider ) {
 					slider.find('.slide_description').children().css({'visibility': 'hidden'});
 					slider.find('.flex-active-slide .slide_description').children().each(function(index){
@@ -783,8 +783,8 @@ function windowLoadInit() {
 				nextText: "",
 				smoothHeight: false,
 				slideshow: autoplay,
-				slideshowSpeed: 2000,
-				animationSpeed:400,
+				slideshowSpeed: 3500,
+				animationSpeed:500,
 				start: function( slider ) {
 					slider.find('.flex-control-nav').find('a').each(function() {
 						jQuery( this ).html('0' + jQuery( this ).html());
@@ -815,8 +815,8 @@ function windowLoadInit() {
 				nextText: "",
 				smoothHeight: false,
 				slideshow: autoplay,
-				slideshowSpeed: 2000,
-				animationSpeed: 400,
+				slideshowSpeed: 3500,
+				animationSpeed: 500,
 				start: function( slider ) {
 					slider.find('.flex-control-nav').find('a').each(function() {
 						jQuery( this ).html('0' + jQuery( this ).html());
@@ -1431,30 +1431,29 @@ $window.on('resize', function(){
 
 // ****************************************  modify **********************************************************
 
-// AOS.init();
+ AOS.init();
 
-// // You can also pass an optional settings object
-// // below listed default settings
-// AOS.init({
-//   // Global settings:
-//   disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-//   startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-//   initClassName: 'aos-init', // class applied after initialization
-//   animatedClassName: 'aos-animate', // class applied on animation
-//   useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-//   disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-//   debounceDelay: 5000, // the delay on debounce used while resizing window (advanced)
-//   throttleDelay: 3000, // the delay on throttle used while scrolling the page (advanced)
+// You can also pass an optional settings object
+// below listed default settings
+AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 5000, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 3000, // the delay on throttle used while scrolling the page (advanced)
   
 
-//   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-//   offset: 120, // offset (in px) from the original trigger point
-//   delay: 4000, // values from 0 to 3000, with step 50ms
-//   duration: 1000, // values from 0 to 3000, with step 50ms
-//   easing: 'ease', // default easing for AOS animations
-//   once: false, // whether animation should happen only once - while scrolling down
-//   mirror: false, // whether elements should animate out while scrolling past them
-//   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 4000, // values from 0 to 3000, with step 50ms
+  duration: 1000, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
-// });
-
+ });

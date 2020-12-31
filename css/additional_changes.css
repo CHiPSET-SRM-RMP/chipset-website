@@ -1,5 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster+Two:ital@1&display=swap');
 /* CHiPSET header logo and text */
+
 
 .header_left_logo>.logo_text{
     color: #000 !important;
@@ -350,20 +351,11 @@ h6:hover{
     position: relative;
 }
 
-/* Events page */
+/******************************************* Events page *******************************************************************/
 
-/* ####################################   MODIFY CSS ###################################### */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster+Two:ital@1&display=swap');
 
-/* .rollover:hover{
-    /* color: ; */
-    /* visibility: hidden; */
-    /* opacity: 0; */
-    /* z-index: 3; */
-    /* transition: opacity 0.3s ease-in-out; */
-    /* color: #fff; */
-	/* transform: translate3d(0,-50%,0) translate3d(0,-40px,0); */
-/* } */ 
+
+ 
 
 .rollover {
     background: black;
@@ -396,9 +388,9 @@ h6:hover{
 
 .centre_heading{
     text-align: center;
-    font-family: 'Dancing Script', cursive;
-     font-family: 'Lobster Two', cursive;
-     font-size: 70px;
+      /* font-family: 'Dancing Script', cursive !important ;  */
+     font-family: 'Lobster Two', cursive !important; 
+    font-size: 70px;
 
 }
 .color_black{
@@ -500,59 +492,120 @@ body[data-aos-duration='4000'] [data-aos],
   [data-aos][data-aos][data-aos-duration='4000'] {
     transition-duration: 4000ms;
   }
+  /* .pagination_margin{
+      margin-left: auto;
+      margin-right: auto;
+  } */
 
-@media only screen and (max-width: 800px) and (min-width: 360px)
-{
-  .update_event{
-    
-    height: 40vh;
-    width: 100%;
-  }
-  .button{
-    width: 50%;
-    height: 50%;
-    font-size: 1em;
-    
+  @media (min-width: 320px) and (max-width: 760px){
+      .updates-event{
+          height: 50vh;
+      }
+      .centre_heading{
+          font-size: 45px;
+          margin-top: -80px;
+      }
+      .left_margin{
+          margin-left: 80px;
+      }
+      .inc_img{
+          height: 40vh;
+      }
 
   }
-  .centre_heading{
-    font-size: 35px;
-  }
-  .left_margin{
-    margin-left: -150px;
-  }
-  .left_margin{
-    margin-left: 110px;
-  }
-    
-}
+   @media (min-width: 770px) and (max-width: 1023px){
+      .updates-event{
+          height: 40vh;
+      }
+      .centre_heading{
+          font-size: 50px;
+      }
+      .left_margin{
+          /* margin-left: auto !important; */
+          margin-right: 250px !important;
+      }
 
-@media only screen and (max-width: 830px) and (min-width: 200px)
-{
-  .updates-event{
-    height: 33vh;
+  } 
+  @media (min-width: 1024px) and (max-width: 1440px){
+      .updates-event{
+          height: 110vh;
+      }
+      .topmargin_30{
+          margin-top: 900px;
+
+      }
+      /* .pro_centre{
+          margin-left: -230px;
+      } */
   }
-  .button
+  /* .button
   {
   width: 60%;
   height: 70%;
   font-size: 1em;
   }
+  */
+
+/* @media only screen and (max-width: 830px) and (min-width: 200px)
+{
+  .updates-event{
+    height: 33vh;
+  }
+  
   .centre_heading{
     font-size: 45px;
   }
   .pagination{
     margin-left: -200px;
-  }
+  } 
 
 }
+
  @media only screen and (max-width: 390px) and (min-width: 320px)
 {
   .left_margin{
-    margin-left: 70px;
+    margin-left: 280px;
+  }
+  .updates-event{
+
+      height: 50vh;
   }
   } 
+  @media only screen and (max-width: 768px) and (min-width: 357px){
+      .updates-event{
+          height: 100vh;
+      }
+      
+      
+      .lefty{
+          margin-left: 100px;
+      }
+      .centre_heading{
+           font-size: 80px;
+      }
+      .margin_top{
+          margin-top: 50px;
+      }
 
+      .left_margin{
+          margin-left: 100px;
+      }
+      .width_change{
+          width: 120%;
+      }
+
+   
+    
+       
+  }
+
+  /* @media only screen and (max-width: 430px) and (min-width: 360px){} */
+
+  /* @media only screen and (max-width: 430px) and (min-width: 360px){
+      .updates-event{
+          height: 61vh;
+      }
+  }
 
 
  @media only screen and (max-width: 770px) and (min-width: 560px){
@@ -574,14 +627,28 @@ body[data-aos-duration='4000'] [data-aos],
     margin-left: -200px;
   }
   .updates-event{
-    height: 40vh;
+    height: 100vh;
   }
   .pro_top{
     
    margin-top: 895px;
   } 
   
+
  }
+ @media only screen and (max-width:570px) and (min-width:300px){
+     .dec_size{
+         font-size: 10px;
+     }
+     .margin227{
+         margin-left: 227px;
+     }
+ }
+ @media only screen and (max-width:1024px) and (min-width:401){
+    .updates-event{
+        height: 100vh;
+    }
+} */
 
  /* Contact Us Section */
 
