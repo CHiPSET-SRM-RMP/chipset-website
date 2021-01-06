@@ -47,7 +47,8 @@
 
 .overlay-text h3{
     color: rgb(255, 255, 255) !important;
-    font-family: 'Langar', cursive;
+    /* font-family: 'Langar', cursive; */
+    font-family: 'Arbutus Slab', serif;
     font-size: 30px;
     font-weight: 700;
     position: absolute;
@@ -128,17 +129,12 @@ h6:hover{
 
 .container .row .text-center h2{
     font-size: 60px;
-    font-family: 'Black Ops One', cursive;
+    /* font-family: 'Black Ops One', cursive; */
+    font-family: 'Patua One', cursive;
     color: #000;
-    text-shadow: 5px 5px 5px #ffe;
+    text-shadow: 5px 5px 7px #d3d3d3;
 }
 
-.container .row .text-center h2>sup{
-    font-size: 45px;
-    font-family: 'Black Ops One', cursive;
-    color: #000;
-    text-shadow: 5px 5px 5px #ffe;
-}
 
 .background_cover{
     background-color: rgb(255, 255, 255);
@@ -151,7 +147,8 @@ h6:hover{
 
 .hidden_text{
     display: none;
-    font-family: 'Langar', cursive;
+    /* font-family: 'Langar', cursive; */
+    font-family: 'Arbutus Slab', serif;
     font-size: 25px !important;
     font-weight: 700;
 }
@@ -172,10 +169,6 @@ h6:hover{
 
     .container .row .text-center h2{
         font-size: 50px;
-    }
-
-    .container .row .text-center h2 sup{
-        font-size: 35px;
     }
 
     .col-xs-10{
@@ -229,10 +222,6 @@ h6:hover{
         font-size: 55px;
     }
 
-    .container .row .text-center h2 sup{
-        font-size: 40px;
-    }
-
     .section_padding_top_40>[class*="container"]{
         padding-top: 15px;
     }
@@ -265,10 +254,6 @@ h6:hover{
         font-size: 60px;
     }
 
-    .container .row .text-center h2 sup{
-        font-size: 45px;
-    }
-
     .section_padding_top_40>[class*="container"]{
         padding-top: 20px;
     }
@@ -296,9 +281,6 @@ h6:hover{
         font-size: 60px;
     }
 
-    .container .row .text-center h2 sup{
-        font-size: 45px;
-    }
 }
 
 @media (min-width:1101px) and (max-width: 1800px){
@@ -318,9 +300,6 @@ h6:hover{
         font-size: 70px;
     }
 
-    .container .row .text-center h2 sup{
-        font-size: 55px;
-    }
 }
 
 /* logo changer on theme change */
