@@ -10,7 +10,7 @@
 }
 
 .navbar_menu{
-    font-weight: 550 !important;
+    font-weight: 500 !important;
 }
 
 /* Footer text */
@@ -540,10 +540,10 @@ body[data-aos-duration='4000'] [data-aos],
         height: 110vh;
     }
 
-    .topmargin_30 {
+    /* .topmargin_30 {
         margin-top: 900px;
 
-    }
+    } */
 
 }
 
