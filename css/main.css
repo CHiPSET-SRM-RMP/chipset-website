@@ -8995,9 +8995,9 @@ body.active-side-header.slide-right .page_header_side {
     color: #e85242;
 }
 
-.ls .greylinks a.social-icon:not(:hover) {
+/* .ls .greylinks a.social-icon:not(:hover) {
     color: #bfbfbf;
-}
+} */
 
 .ls .greylinks.color2 a:hover,
 .ls .greylinks.color2 a:focus,
