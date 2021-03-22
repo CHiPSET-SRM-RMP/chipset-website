@@ -353,7 +353,7 @@ h6:hover{
 
 .updates-event{
   border-bottom: 2px solid black; 
-   height: 80vh;
+   height: 90%;
  /* height: 90vh;      *********** when register link is there *********  */
    /* width: 100%; */
 }
@@ -476,7 +476,7 @@ body[data-aos-duration='4000'] [data-aos],
       margin-right: auto;
   } */
 
-  @media (min-width: 320px) and (max-width: 760px){
+  @media (min-width: 425px) and (max-width: 760px){
       .updates-event{
           height: 50vh;
       }
@@ -505,9 +505,10 @@ body[data-aos-duration='4000'] [data-aos],
       }
 
   } 
+
   @media (min-width: 1024px) and (max-width: 1440px){
       .updates-event{
-          height: 110vh;
+          height: 40vh;
       }
       .topmargin_30{
           margin-top: 900px;
@@ -585,4 +586,5 @@ body[data-aos-duration='4000'] [data-aos],
   
   .special_hover:hover{
       transform: scale(1.4);
-  }
+    }
+}
