@@ -151,11 +151,6 @@ h6:hover {
     /* background-image: linear-gradient(to bottom right, #e7b309, #ebb811); */
 }
 
-.margin-none{
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
 /* */
 
 .hidden_text {
@@ -612,8 +607,18 @@ body[data-aos-duration='4000'] [data-aos],
     width: 100%;
 }
 
-.map_marker_description {
+.ls .map_marker_description {
     text-align: center;
+    border: 2px black dashed;
+}
+
+.ds .map_marker_description{
+    text-align: center;
+    border: 2px dashed white;
+}
+
+.page_map{
+    margin: 5% auto;
 }
 
 .special_hover {
@@ -621,9 +626,51 @@ body[data-aos-duration='4000'] [data-aos],
     transform: scale(1.5) !important;
     margin-top: 15px !important;
     margin-bottom: 15px !important;
-
 }
 
 .special_hover:hover {
     transform: scale(1.7) !important;
+}
+
+.footer-content{
+    width: 70%;
+    margin: auto;
+}
+
+.list-unstyled.footer-blog-section{
+    margin: auto;
+    width: 90%;
+}
+
+.social-handle-heading{
+    margin: 5% auto;
+}
+
+.margin-none{
+    position: relative;
+    margin-left: 0; 
+    text-align: center;
+}
+
+.ls .form-control, .ds .form-control{
+    border: 2px solid #3a3d44 !important;
+}
+
+.ls .form-control::placeholder, .ds .form-control::placeholder{
+    color: #3a3d44;
+}
+
+.ls .form-control::selection, .ds .form-control::selection{
+    background-color: #dbf6e9;
+}
+
+.form-shuffle .bg_teaser{
+    border: 5px double black;
+}
+
+
+@media screen and (max-width: 992px){
+    .margin-none img{
+        width: 30%;
+    }
 }
